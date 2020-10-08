@@ -6,3 +6,10 @@ This project demonstrates a potential issue with Bundler. Calling `Bundler.setup
 docker build -t bundler-gem-not-found .
 docker run --rm bundler-gem-not-found
 ```
+
+Running the container reliably produces this error:
+
+```
+Could not find nio4r-2.5.3 in any of the sources
+Run `bundle install` to install missing gems.
+```
